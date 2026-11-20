@@ -1,0 +1,9 @@
+fastapi==0.165.0
+httpx==0.28.1
+langdetect==1.0.9
+lingua-language-detector==2.2.0; platform_system != "FreeBSD"
+lingua-language-detector==1.4.2; platform_system == "FreeBSD"
+python-dotenv==1.2.4
+psutil==7.2.2
+uvicorn==0.54.0
+psycopg==3.3.9

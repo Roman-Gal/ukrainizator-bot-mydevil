@@ -1,0 +1,4 @@
+# Install in a separate Python 3.12 environment (see scripts/setup-libretranslate.ps1).
+libretranslate==1.9.6
+# requests 2.31 (pinned by LibreTranslate) requires chardet <6 when it is installed.
+chardet==5.2.0
