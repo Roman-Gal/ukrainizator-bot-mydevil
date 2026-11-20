@@ -15,7 +15,7 @@ class Settings:
     webhook_path: str = "/telegram/webhook"
     host: str = "127.0.0.1"
     port: int = 8081
-    database: str = "./data/translator.sqlite"
+    database: str = field(default="./data/translator.sqlite", repr=False)
     allowed_chats: frozenset[int] = frozenset()
     provider: str = "libretranslate"
     api_url: str = "http://127.0.0.1:5000/translate"
